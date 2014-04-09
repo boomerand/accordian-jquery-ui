@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>jQuery UI Accordion - Default functionality</title>
+  <link rel="stylesheet" href="//code.jquery.com/ui/1.10.4/themes/le-frog/jquery-ui.css">
+  <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+  <script src="//code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
+  <link rel="stylesheet" href="/resources/demos/style.css">
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <script>
+    // calls accordion UI function
+    $(function() {
+      $('#accordion').accordion();
+    }); 
+  </script>
+  <script>
+    // calls tabs UI function
+    $(function(){
+      $('#tabs').tabs();
+    });
+  </script>
+  <script>
+  $(function() {
+    $( "#draggable" ).draggable();
+  });
+  </script>
+</head>
+<body>
+  <!-- BEGIN CONTAINER DIV -->
+  <div id="container">
+    <img src="masthead_turtle_power.jpg" alt="header">
+    <!-- BEGIN ACCORDION UI -->
+    <div id="accordion">
+      <h3>Leonardo</h3>
+      <div>
+        <p>
+        Leonardo is considered the "big brother" of the group due to his serious and responsible nature. He has taken on the unofficial title of "leader" of the Turtles and leads by example and not by giving orders, thus earning Leo great respect from his brothers. Leo is everything you'd want in a hero because no one works, studies, or trains harder than he does.</p>
+        <p>Leo's favorite color is blue and his weapons are twin katana swords, bestowed upon him by Splinter due to the turtle's sharp mind and steely resolve.</p>
+        </p>
+      </div>
+      <h3>Donatello</h3>
+      <div>
+        <p>
+        Donatello is the brainiest turtle of the bunch and has the unique ability to figure out how things work. His brothers are fortunate to have him around because he has invented many of their bodacious transportation vehicles, including the Battle Shell, Shell Cycle and the Sewer Slider.</p>
+        <p>Donnie would rather solve a problem by talking it out rather than fighting, but this is rarely an option in a world in which the Foot Clan lurks. This makes the bo staff the perfect weapon for Donatello since he is long on inspiration and stout of heart. His favorite color is purple.</p>
+        </p>
+      </div>
+      <h3>Raphael</h3>
+      <div>
+        <p>
+         Raphael is by far the most fearsome and fearless fighter of the group, although he has trouble mastering his emotions at times. He is often steadfast and strong-minded and he acts like a typical rebel who questions authority. Raph understands he needs to work on keeping his temper in control but, simply put, he prefers to be left alone at times.
+        <p>Raph's favorite color is red. Splinter chose twin sais for his weapon due to his quick and "pointed" personality.
+        </p>
+      </div>
+      <h3>Michaelangelo</h3>
+      <div>
+        <p>
+        Michelangelo is a naturally skilled athlete, which often makes up for his lack of eagerness to participate in long training sessions. He is a practical joker and class-clown who keeps his brothers both annoyed and entertained at times.</p>
+        <p>Splinter chose the nunchaku as Mikey's weapon since it best suited his show-stopping style and spirit. His favorite color is orange and he loves pizza the most out of any of the Turtles.</p>
+      </div>
+    </div>
+    <!-- END ACCORDION UI -->
+    <div id="right">
+      <!-- BEGIN TABS UI -->
+      <div id="tabs">
+        <ul>
+          <li><a href="#tabs-1">TMNT</a></li>
+          <li><a href="#tabs-2">TMNT II</a></li>
+          <li><a href="#tabs-3">TMNT III</a></li>
+        </ul>
+        <div id="tabs-1">
+          <p>When the New York City Police Department is unable to stop a severe crime wave caused by the Foot Clan, four vigilantes — Leonardo, Michaelangelo, Donatello and Raphael — come forth to save the city. Under the leadership of Splinter and together with their new-found allies April O'Neil and Casey Jones, they fight back and take the battle to The Shredder.</p>
+        </div>
+        <div id="tabs-2">
+          <p>The film follows the adventures of the four Turtles: Leonardo, Donatello, Michelangelo, Raphael, and their Master Splinter. Roughly resuming from the events of the last film, the villain, Shredder, returns to take back command of the Foot Clan, and work towards getting revenge on the Turtles. When he learns the secret behind the Turtles' mutation, he becomes more dangerous than ever.</p>
+        </div>
+        <div id="tabs-3">
+          <p>The Turtles and the Shredder battle once again, this time for the last cannister of the ooze that created the Turtles, which Shredder wants to use to create an army of new mutants.</p>
+        </div>
+      </div>
+      <!-- END TABS UI -->
+      <!-- BEGIN DRAGGABLE UI -->
+      <p id="instructions">Click on Leonardo to drag him around</p>
+      <div id="draggable">
+        <img src="leo.png" alt="leonardo">
+      </div>  
+    </div>
+    <!-- END RIGHT DIV -->
+  </div>  
+  <!-- END CONTAINER DIV --> 
+</body>
+</html>

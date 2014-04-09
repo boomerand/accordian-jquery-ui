@@ -1,0 +1,29 @@
+body {background-color:black;}
+img{margin-bottom:25px;}
+#container{
+	width:1000px;
+	margin:25px auto;
+}
+#accordion{
+	width:525px;
+	margin-right:25px;
+	display:inline-block;
+}
+#right{
+	width:400px;
+	display: inline-block;
+	vertical-align: top;
+}
+#tabs{
+	height:350px;
+}
+#draggable{
+	margin:15px auto;
+	border:none;
+	width:200px;
+}
+#instructions{
+	color:white;
+	font-family: "Lucida Grande","Lucida Sans",Arial,sans-serif;
+	text-align: center;
+}
